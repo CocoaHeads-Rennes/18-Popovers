@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F51B862C19D309A9006E50C9 /* CCPopoverCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F51B862A19D309A9006E50C9 /* CCPopoverCell.m */; };
+		F51B862D19D309A9006E50C9 /* CCPopoverCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F51B862B19D309A9006E50C9 /* CCPopoverCell.xib */; };
+		F56DACF01997FDF6002B65A2 /* CCPopoverSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F56DACEF1997FDF6002B65A2 /* CCPopoverSelectionViewController.m */; };
+		F56DACF7199801D5002B65A2 /* CCPopoverSelectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F56DACF6199801D5002B65A2 /* CCPopoverSelectionView.xib */; };
+		F56DACFA199803AD002B65A2 /* CCPopoverManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F56DACF9199803AD002B65A2 /* CCPopoverManager.m */; };
+		F5BC03C21997F3DC001F5E8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BC03B61997F3DC001F5E8E /* AppDelegate.m */; };
+		F5BC03C31997F3DC001F5E8E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5BC03B71997F3DC001F5E8E /* Images.xcassets */; };
+		F5BC03C41997F3DC001F5E8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BC03B91997F3DC001F5E8E /* main.m */; };
+		F5BC03C71997F3DC001F5E8E /* CCListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BC03C11997F3DC001F5E8E /* CCListViewController.m */; };
+		F5BC03C91997F4B8001F5E8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5BC03C81997F4B8001F5E8E /* Main.storyboard */; };
+		F5BC03CC1997F632001F5E8E /* CCListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5BC03CB1997F632001F5E8E /* CCListCell.xib */; };
+		F5BC03CF1997F65A001F5E8E /* CCListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BC03CE1997F65A001F5E8E /* CCListCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F51B862919D309A9006E50C9 /* CCPopoverCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPopoverCell.h; sourceTree = "<group>"; };
+		F51B862A19D309A9006E50C9 /* CCPopoverCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPopoverCell.m; sourceTree = "<group>"; };
+		F51B862B19D309A9006E50C9 /* CCPopoverCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCPopoverCell.xib; sourceTree = "<group>"; };
+		F56DACED1997F882002B65A2 /* CCTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTableViewCell.h; sourceTree = "<group>"; };
+		F56DACEE1997FDF6002B65A2 /* CCPopoverSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPopoverSelectionViewController.h; sourceTree = "<group>"; };
+		F56DACEF1997FDF6002B65A2 /* CCPopoverSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPopoverSelectionViewController.m; sourceTree = "<group>"; };
+		F56DACF6199801D5002B65A2 /* CCPopoverSelectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCPopoverSelectionView.xib; sourceTree = "<group>"; };
+		F56DACF8199803AD002B65A2 /* CCPopoverManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPopoverManager.h; sourceTree = "<group>"; };
+		F56DACF9199803AD002B65A2 /* CCPopoverManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPopoverManager.m; sourceTree = "<group>"; };
+		F56DACFB199803F1002B65A2 /* CCSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCSingleton.h; sourceTree = "<group>"; };
+		F5778CE719D0AFCC007D5CC8 /* CCPopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPopoverViewController.h; sourceTree = "<group>"; };
+		F5BC037C1997F1C7001F5E8E /* Popovers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Popovers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5BC03B51997F3DC001F5E8E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5BC03B61997F3DC001F5E8E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5BC03B71997F3DC001F5E8E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F5BC03B91997F3DC001F5E8E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5BC03BA1997F3DC001F5E8E /* Popovers-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Popovers-Info.plist"; sourceTree = "<group>"; };
+		F5BC03BB1997F3DC001F5E8E /* Popovers-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Popovers-Prefix.pch"; sourceTree = "<group>"; };
+		F5BC03C01997F3DC001F5E8E /* CCListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCListViewController.h; sourceTree = "<group>"; };
+		F5BC03C11997F3DC001F5E8E /* CCListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCListViewController.m; sourceTree = "<group>"; };
+		F5BC03C81997F4B8001F5E8E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F5BC03CB1997F632001F5E8E /* CCListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCListCell.xib; sourceTree = "<group>"; };
+		F5BC03CD1997F65A001F5E8E /* CCListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCListCell.h; sourceTree = "<group>"; };
+		F5BC03CE1997F65A001F5E8E /* CCListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCListCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5BC03791997F1C7001F5E8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F56DACF11997FEB1002B65A2 /* Popover */ = {
+			isa = PBXGroup;
+			children = (
+				F56DACF8199803AD002B65A2 /* CCPopoverManager.h */,
+				F56DACF9199803AD002B65A2 /* CCPopoverManager.m */,
+			);
+			path = Popover;
+			sourceTree = "<group>";
+		};
+		F56DACF519980196002B65A2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F56DACF6199801D5002B65A2 /* CCPopoverSelectionView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F5BC03731997F1C7001F5E8E = {
+			isa = PBXGroup;
+			children = (
+				F5BC03CA1997F610001F5E8E /* Cells */,
+				F5BC03B41997F3DC001F5E8E /* Classes */,
+				F5BC03B71997F3DC001F5E8E /* Images.xcassets */,
+				F5BC03B81997F3DC001F5E8E /* OtherSources */,
+				F5BC03D01997F722001F5E8E /* Protocols */,
+				F5BC03BC1997F3DC001F5E8E /* Resources */,
+				F5BC03BF1997F3DC001F5E8E /* ViewControllers */,
+				F56DACF519980196002B65A2 /* Views */,
+				F5BC037D1997F1C7001F5E8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5BC037D1997F1C7001F5E8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5BC037C1997F1C7001F5E8E /* Popovers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5BC03B41997F3DC001F5E8E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F5BC03B51997F3DC001F5E8E /* AppDelegate.h */,
+				F5BC03B61997F3DC001F5E8E /* AppDelegate.m */,
+				F56DACF11997FEB1002B65A2 /* Popover */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F5BC03B81997F3DC001F5E8E /* OtherSources */ = {
+			isa = PBXGroup;
+			children = (
+				F5BC03B91997F3DC001F5E8E /* main.m */,
+				F5BC03BA1997F3DC001F5E8E /* Popovers-Info.plist */,
+				F5BC03BB1997F3DC001F5E8E /* Popovers-Prefix.pch */,
+			);
+			path = OtherSources;
+			sourceTree = "<group>";
+		};
+		F5BC03BC1997F3DC001F5E8E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F5BC03C81997F4B8001F5E8E /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F5BC03BF1997F3DC001F5E8E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F5BC03C01997F3DC001F5E8E /* CCListViewController.h */,
+				F5BC03C11997F3DC001F5E8E /* CCListViewController.m */,
+				F56DACEE1997FDF6002B65A2 /* CCPopoverSelectionViewController.h */,
+				F56DACEF1997FDF6002B65A2 /* CCPopoverSelectionViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F5BC03CA1997F610001F5E8E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F5BC03CD1997F65A001F5E8E /* CCListCell.h */,
+				F5BC03CE1997F65A001F5E8E /* CCListCell.m */,
+				F5BC03CB1997F632001F5E8E /* CCListCell.xib */,
+				F51B862919D309A9006E50C9 /* CCPopoverCell.h */,
+				F51B862A19D309A9006E50C9 /* CCPopoverCell.m */,
+				F51B862B19D309A9006E50C9 /* CCPopoverCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F5BC03D01997F722001F5E8E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F5778CE719D0AFCC007D5CC8 /* CCPopoverViewController.h */,
+				F56DACFB199803F1002B65A2 /* CCSingleton.h */,
+				F56DACED1997F882002B65A2 /* CCTableViewCell.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5BC037B1997F1C7001F5E8E /* Popovers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5BC03AE1997F1C8001F5E8E /* Build configuration list for PBXNativeTarget "Popovers" */;
+			buildPhases = (
+				F5BC03781997F1C7001F5E8E /* Sources */,
+				F5BC03791997F1C7001F5E8E /* Frameworks */,
+				F5BC037A1997F1C7001F5E8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Popovers;
+			productName = Popovers;
+			productReference = F5BC037C1997F1C7001F5E8E /* Popovers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5BC03741997F1C7001F5E8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Carter Consulting";
+				TargetAttributes = {
+					F5BC037B1997F1C7001F5E8E = {
+						DevelopmentTeam = SW7746R7M3;
+					};
+				};
+			};
+			buildConfigurationList = F5BC03771997F1C7001F5E8E /* Build configuration list for PBXProject "Popovers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5BC03731997F1C7001F5E8E;
+			productRefGroup = F5BC037D1997F1C7001F5E8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5BC037B1997F1C7001F5E8E /* Popovers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5BC037A1997F1C7001F5E8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BC03C31997F3DC001F5E8E /* Images.xcassets in Resources */,
+				F51B862D19D309A9006E50C9 /* CCPopoverCell.xib in Resources */,
+				F5BC03CC1997F632001F5E8E /* CCListCell.xib in Resources */,
+				F5BC03C91997F4B8001F5E8E /* Main.storyboard in Resources */,
+				F56DACF7199801D5002B65A2 /* CCPopoverSelectionView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5BC03781997F1C7001F5E8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BC03C71997F3DC001F5E8E /* CCListViewController.m in Sources */,
+				F56DACFA199803AD002B65A2 /* CCPopoverManager.m in Sources */,
+				F5BC03C41997F3DC001F5E8E /* main.m in Sources */,
+				F5BC03C21997F3DC001F5E8E /* AppDelegate.m in Sources */,
+				F56DACF01997FDF6002B65A2 /* CCPopoverSelectionViewController.m in Sources */,
+				F51B862C19D309A9006E50C9 /* CCPopoverCell.m in Sources */,
+				F5BC03CF1997F65A001F5E8E /* CCListCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F5BC03AC1997F1C8001F5E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Joanna Carter (U4FY3ZHP79)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F5BC03AD1997F1C8001F5E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Joanna Carter (U4FY3ZHP79)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5BC03AF1997F1C8001F5E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OtherSources/Popovers-Prefix.pch";
+				INFOPLIST_FILE = "OtherSources/Popovers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F5BC03B01997F1C8001F5E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OtherSources/Popovers-Prefix.pch";
+				INFOPLIST_FILE = "OtherSources/Popovers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5BC03771997F1C7001F5E8E /* Build configuration list for PBXProject "Popovers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5BC03AC1997F1C8001F5E8E /* Debug */,
+				F5BC03AD1997F1C8001F5E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5BC03AE1997F1C8001F5E8E /* Build configuration list for PBXNativeTarget "Popovers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5BC03AF1997F1C8001F5E8E /* Debug */,
+				F5BC03B01997F1C8001F5E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5BC03741997F1C7001F5E8E /* Project object */;
+}
